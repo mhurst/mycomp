@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/ladder/';
+$config['base_url']	= 'http://comp.dev:8888/';
 
 /*
 |--------------------------------------------------------------------------
