@@ -1,0 +1,116 @@
+.flash-message {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    line-height: 16px;
+    padding: 5px 5px 5px 30px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #F0381A;
+    -moz-border-radius:     2px; /* Firefox */
+    -webkit-border-radius:  2px; /* Safari and Chrome */
+    -khtml-border-radius:   2px; /* Linux */ 
+    border-radius:          2px; /* CSS3 */
+    border: 1px solid #f0381a;
+    background-color: #ffcccc;
+}
+
+.message {
+    color: #F0381A;
+    -moz-border-radius:     2px; /* Firefox */
+    -webkit-border-radius:  2px; /* Safari and Chrome */
+    -khtml-border-radius:   2px; /* Linux */ 
+    border-radius:          2px; /* CSS3 */
+    border: 1px solid #f0381a;
+    background-color: #96DBDC;
+}
+
+.main {
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	width: 100%;
+	max-width: 1250px;
+	height: 100%;
+	margin: 20px auto;
+	padding-bottom: 20px;
+}
+
+.main h1 {
+	display: block;
+	border-bottom: 1px solid #ccc;
+	width: 90%;
+	padding: 8px;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+.main h4 {
+	padding: 8px;	
+}
+
+.main nav {
+	padding-top: 10px;	
+}
+
+.main .nav-tabs {
+	padding-left: 10px;
+}
+
+
+.inner-main {
+	width: 100%;
+	max-width: 1025px;
+	margin: 0 auto;
+}
+
+.inner-main #register-form {
+	width: 320px;
+	margin: 30px auto;
+}
+
+.inner-main #login-form {
+	width: 320px;
+	margin: 30px auto;
+}
+
+#addgame-form {
+	width: 320px;
+	margin: 30px auto;	
+}
+
+#dashboard-shell table {
+/*	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	border: none;*/
+}
+
+#dashboard-shell table caption {
+	text-align: left;
+	padding: 12px 0 12px 0;
+	font-weight: bold;
+}
+
+#dashboard-shell table tr {
+	margin: 0;
+	padding: 0;
+}
+
+#dashboard-shell table td {
+	padding: 12px;
+}
+
+#dashboard-shell table th {
+	padding: 6px;
+	font-weight: bold;
+	background: #999;
+}
+
+#dashboard-shell tr:nth-child(odd) { background-color:#eee; }
+#dashboard-shell tr:nth-child(even)	{ background-color:#fff; }
+
+#dashboard-shell table thead {
+	text-align: left;
+	background: #999;
+}
