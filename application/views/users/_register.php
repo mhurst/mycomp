@@ -19,5 +19,6 @@
                 <input type="password" name="repeat-password" id="repeat-password" class="form-control" placeholder="Password">
             </div>
             <input type="submit" name="submit" class="btn btn-primary" value="Register">
+        </fieldset>
     </form>
 </div>

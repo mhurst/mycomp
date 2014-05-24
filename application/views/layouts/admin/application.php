@@ -11,6 +11,7 @@
     <link href="<?= base_url() ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/vendor/bootstrap/css/bootstrap.icon-large.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/vendor/ui-lightness/jquery-ui-1.10.4.custom.min.css">
 
 	<title></title>
 
@@ -32,7 +33,7 @@
 
             <?php if($this->session->flashdata('message') != '') : ?>
                 <div class="alert alert-success"><?= $this->session->flashdata('message') ?></div>
-            <?php endif; ?>         
+            <?php endif; ?>
         	<?= $body ?>
             <?php $this->load->view('layouts/admin/_footer'); ?>
         </div>
@@ -43,12 +44,13 @@ if (!window.jQuery) {
     document.write('<script src="<?= base_url() ?>assets/vendor/jquery.js"><\/script>');
 }
 </script>
+<script src="<?= base_url() ?>assets/vendor/jquery-ui-1.10.4.custom.min.js"></script>
 <script src="<?= base_url() ?>assets/js/main.js"></script>
 <?php if (isset($additional_javascripts)): ?>
    <?php foreach ($additional_javascripts as $js_file): ?>
         <script src="<?= base_url() ?>assets/<?= $js_file ?>.js"></script>
     <?php endforeach; ?>
-<?php endif; ?>    
+<?php endif; ?>
 </body>
 
 </html>
